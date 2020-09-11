@@ -1,0 +1,145 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.trapezoid {
+    width: 88px;
+    height: 64px;
+    margin-left: 38%;
+    position: relative;
+}
+.trapezoid:before {
+	content: '';
+	border-right: 47px solid #12498A;
+	 border-bottom: 65px solid transparent;
+	 position: absolute;
+    left: -46px;
+     top: 0;
+}
+.trapezoid:after {
+    content: '';
+    border-left: 46px solid #12498A;
+    border-bottom: 65px solid transparent;
+    position: absolute;
+    right: -45px;
+    top: 0;
+}
+.trapezoid h1 {
+    font-size: 13px;
+    }
+.t_left{
+	padding-left: 18%;
+    padding-top: 25px;
+}
+.banner_content {
+    padding-top: 50px;
+}
+.banner_content h2 {
+    font-size: 23px;
+    line-height: 25px;
+}
+.banner_content p {
+    font-size: 16px;
+    padding-bottom: 12px;
+}
+.banner_content h3 {
+    font-size: 20px;
+}
+.call a {
+    font-size: 20px;
+}
+.call {
+    padding-bottom: 100px;
+}
+.footer h1 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+.footer p {
+    font-size: 13px;
+    padding-bottom: 22px;
+    line-height: 20px;
+}
+.footer h2 {
+    font-size: 15px;
+    padding: 5px 0;
+}
+	
+
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+	
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.trapezoid {
+    width: 160px;
+    height: 70px;
+    background: #12498A;
+    margin-left: 66px;
+    position: relative;
+}
+.trapezoid:before {
+    content: '';
+    border-right: 47px solid #12498A;
+    border-bottom: 71px solid transparent;
+    position: absolute;
+    left: -46px;
+    top: 0;
+}
+.trapezoid:after {
+    content: '';
+    border-left: 46px solid #12498A;
+    border-bottom: 71px solid transparent;
+    position: absolute;
+    right: -45px;
+    top: 0;
+}
+.trapezoid h1 {
+    font-size: 23px;
+}
+.t_left h2 {
+    font-size: 19px;
+}
+.banner_content h2 {
+    font-size: 25px;
+    line-height: 24px;
+}
+.banner_content p {
+    font-size: 17px;
+    padding-bottom: 15px;
+}
+.call a {
+    border-bottom: 2px solid orangered;
+    font-size: 21px;
+}
+.footer h1 {
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 45px;
+}
+.footer p {
+    font-size: 15px;
+    padding-bottom: 20px;
+    line-height: 22px;
+ }
+.footer h2 {
+    font-size: 17px;
+    padding: 8px 0;
+}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+
+}
